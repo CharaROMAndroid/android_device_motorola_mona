@@ -339,7 +339,6 @@ vendor/lib64/com.motorola.hardware.display.panel-V1-ndk.so
 vendor/lib64/libRbsFlow.so
 vendor/lib64/libets_teeclient_v3.so
 vendor/lib64/libgf_hal.so
-vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 # HotwordEnrollment
