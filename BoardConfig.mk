@@ -38,6 +38,10 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # Recovery
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 90
 
+# Under-display fingerprint display extension
+SOONG_CONFIG_surfaceflinger += udfps_lib
+SOONG_CONFIG_surfaceflinger_udfps_lib := libudfps_extension.mona
+
 # Security
 BOOT_SECURITY_PATCH := 2026-09-01
 VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
